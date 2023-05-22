@@ -1,0 +1,20 @@
+/* navigation bar ↓ */
+.nav {
+    background-color: #7c7c7c;
+    overflow: hidden;
+}
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a:hover {
+    background-color: #adadad;
+}
+.nav a.active {
+    background-color: #9d43f1;
+}
