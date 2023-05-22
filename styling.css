@@ -18,3 +18,6 @@
 .nav a.active {
     background-color: #9d43f1;
 }
+.nav .icon {
+    display: none;
+}
