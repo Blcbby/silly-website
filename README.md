@@ -1,6 +1,3 @@
-# silly-website
-readmemd
+# this is a website... i think
 
-this is a project
-
-agh
+this is honestly crazy
