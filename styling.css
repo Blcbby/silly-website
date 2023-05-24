@@ -18,7 +18,10 @@
 .nav a:hover {
     background-color: #adadad;
 }
-.nav a.active{
+.nav a:active{
+    background-color: purple;
+}
+.nav a.current{
     background-color: purple;
 }
 p {
