@@ -36,3 +36,35 @@ function yummyNummy() {
     console.log(cookieClicks)
     cookieClicks++;
 }
+
+var nCount = 0;
+
+function nothingIsHere() {
+    if (nCount == 0) {
+        $(".nothing").append("<h1>I SWEAR</h1>");
+    } else if (nCount == 1) {
+        $(".nothing").append("<h1>STOP CLICKING</h1>");
+    } else if (nCount == 2) {
+        $(".nothing").append("<h1>YOU ARE NOT GETTING ANYWHERE</h1>");
+    } else if (nCount == 3) {
+        $(".nothing").append("<h1>WHY ARE YOU LIKE THIS</h1>");
+    } else if (nCount == 4) {
+        $(".nothing").append("<h1>STOP</h1>");
+    } else if (nCount == 5) {
+        $(".nothing").append("<h1>WHY ARE YOU NOT STOPPING</h1>");
+    } else if (nCount > 5) {
+        $(".nothing").append("<h1>AAAAAAAAAAAAAAAAA</h1>");
+    } else {
+        void(0);
+    }
+    if (nCount == 25) {
+        $(".nothing").text("");
+        $(".nothing").append("<h1>I LITERALLY TOLD YOU</h1>");
+        nCount = -32767;
+    }
+    nCount++;
+}
+
+function ninthImage() {
+    $(".cats").append("<img src='/catimages/angry.png'>");
+}
