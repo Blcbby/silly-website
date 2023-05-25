@@ -32,6 +32,7 @@ function yummyNummy() {
     } else if (cookieClicks == 5) {
         alert("alright, you asked for it...");
         window.location.pathname = "/silly-website/bad.png";
+        alert("have fun!")
     }
     console.log(cookieClicks)
     cookieClicks++;
