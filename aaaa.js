@@ -67,5 +67,5 @@ function nothingIsHere() {
 }
 
 function ninthImage() {
-    $(".cats").append("<img src='/catimages/angry.png'>");
+    $(".cats").append("<img src='silly-website/catimages/angry.png'>");
 }
