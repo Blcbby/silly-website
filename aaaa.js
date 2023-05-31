@@ -11,7 +11,7 @@ function test() {
         void(0);
     }
 }
-setTimeout(test, 0)
+setTimeout(test, 16)
 
 var cookieClicks = 0;
 
